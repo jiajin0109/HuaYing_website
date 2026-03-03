@@ -1,0 +1,158 @@
+{
+  "services": [
+    {
+      "title": "住宅設計",
+      "description": "依照生活習慣規劃舒適居家。",
+      "image": "assets/services/live.png",
+      "alt": "住宅設計"
+    },
+    {
+      "title": "商業空間",
+      "description": "打造符合品牌形象的營業場域。",
+      "image": "assets/services/BusinessSpace.png",
+      "alt": "商業空間"
+    },
+    {
+      "title": "舊屋翻新",
+      "description": "老屋更新，兼顧美感與機能。",
+      "image": "assets/services/newChange.png",
+      "alt": "舊屋翻新"
+    }
+  ],
+  "news": [
+    {
+      "title": "2025 室內設計趨勢：自然元素回歸",
+      "date": "2025-01-15",
+      "image": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?w=600&q=80",
+      "alt": "設計趨勢",
+      "excerpt": "今年最受矚目的設計趨勢是將自然元素融入室內空間，包括天然材質、大地色系以及室內植栽...",
+      "link": "#"
+    },
+    {
+      "title": "榮獲亞洲設計大獎金獎殊榮",
+      "date": "2025-01-08",
+      "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80",
+      "alt": "獲獎消息",
+      "excerpt": "我們的「天際線住宅」專案在2024亞洲設計大獎中榮獲金獎，感謝客戶的信任與支持...",
+      "link": "#"
+    },
+    {
+      "title": "台中展示中心盛大開幕",
+      "date": "2024-12-20",
+      "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=80",
+      "alt": "新據點",
+      "excerpt": "為了提供更完善的服務，我們於台中設立全新展示中心，歡迎預約參觀...",
+      "link": "#"
+    }
+  ],
+  "portfolio": {
+    "categories": [
+      { "id": "all", "label": "全部" },
+      { "id": "residential", "label": "住宅" },
+      { "id": "commercial", "label": "商業" },
+      { "id": "renovation", "label": "翻新" }
+    ],
+    "items": [
+      {
+        "order": 1,
+        "category": "residential",
+        "title": "現代簡約住宅",
+        "meta": "台北市 | 35坪",
+        "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&q=80",
+        "alt": "現代簡約住宅"
+      },
+      {
+        "order": 2,
+        "category": "residential",
+        "title": "勝美樂富",
+        "meta": "台北市 | 17坪",
+        "images": [
+          "assets/portfolio/residential/bb01.jpg",
+          "assets/portfolio/residential/bb02.jpg",
+          "assets/portfolio/residential/bb03.jpg",
+          "assets/portfolio/residential/bb04.jpg",
+          "assets/portfolio/residential/bb05.jpg"
+        ],
+        "alt": "現代簡約住宅"
+      },
+      {
+        "order": 3,
+        "category": "commercial",
+        "title": "科技公司辦公室",
+        "meta": "新北市 | 120坪",
+        "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&q=80",
+        "alt": "科技辦公室"
+      },
+      {
+        "order": 4,
+        "category": "commercial",
+        "title": "燒烤餐廳",
+        "meta": "台中 | 35坪",
+        "images": [
+          "assets/portfolio/commercial/aa01.jpg",
+          "assets/portfolio/commercial/aa02.jpg",
+          "assets/portfolio/commercial/aa03.jpg"
+        ],
+        "alt": "串燒餐廳"
+      },
+      {
+        "order": 9,
+        "category": "commercial",
+        "title": "精品咖啡廳",
+        "meta": "台中市 | 45坪",
+        "image": "https://images.unsplash.com/photo-1559329007-40df8a9345d8?w=800&q=80",
+        "alt": "精品咖啡廳"
+      },
+      {
+        "order": 6,
+        "category": "renovation",
+        "title": "老屋新生",
+        "meta": "台南市 | 40坪",
+        "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
+        "alt": "老屋改造"
+      },
+      {
+        "order": 7,
+        "category": "residential",
+        "title": "奢華豪宅",
+        "meta": "台北市 | 80坪",
+        "image": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80",
+        "alt": "豪宅設計"
+      }
+    ]
+  },
+  "panorama": {
+    "note": "可用滑鼠拖曳、滾輪縮放，點擊畫面內標記可跳轉房間。",
+    "firstScene": "living_room",
+    "sceneOrder": ["living_room", "kitchen", "bedroom"],
+    "scenes": {
+      "living_room": {
+        "title": "客廳",
+        "type": "equirectangular",
+        "panorama": "assets/panorama.jpg",
+        "hotSpots": [
+          { "pitch": -4, "yaw": 36, "type": "scene", "text": "前往廚房", "sceneId": "kitchen" },
+          { "pitch": -3, "yaw": -44, "type": "scene", "text": "前往臥室", "sceneId": "bedroom" }
+        ]
+      },
+      "kitchen": {
+        "title": "廚房",
+        "type": "equirectangular",
+        "panorama": "assets/panorama.jpg",
+        "hotSpots": [
+          { "pitch": -5, "yaw": 176, "type": "scene", "text": "回到客廳", "sceneId": "living_room" },
+          { "pitch": -2, "yaw": -30, "type": "scene", "text": "前往臥室", "sceneId": "bedroom" }
+        ]
+      },
+      "bedroom": {
+        "title": "臥室",
+        "type": "equirectangular",
+        "panorama": "assets/panorama.jpg",
+        "hotSpots": [
+          { "pitch": -6, "yaw": 158, "type": "scene", "text": "回到客廳", "sceneId": "living_room" },
+          { "pitch": -3, "yaw": 20, "type": "scene", "text": "前往廚房", "sceneId": "kitchen" }
+        ]
+      }
+    }
+  }
+}
